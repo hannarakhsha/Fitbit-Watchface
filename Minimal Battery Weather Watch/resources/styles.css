@@ -1,0 +1,69 @@
+.background {
+  viewport-fill: black;
+}
+
+#clockface {
+  x: 50%;
+  text-length: 4;
+  text-anchor: middle;
+}
+
+#clockHours {
+  font-size: 65;
+  font-family: Colfax-Medium;
+  text-length: 2;
+  text-anchor: end;
+  x: 45%;
+  y: 50%+40;
+  fill: white;
+}
+
+#clockMins {
+  font-size: 65;
+  font-family: Colfax-Medium;
+  text-length: 2;
+  text-anchor: start;
+  x: 45%;
+  y: 50%+40;
+  fill: white;
+}
+
+#clockSec {
+  font-size: 30;
+  font-family: Colfax-Medium;
+  text-length: 2;
+  text-anchor: start;
+  x: 73%;
+  y: 50%+40;
+  fill: grey;
+}
+
+#date {
+  font-size: 25;
+  font-family: Colfax-Medium;
+  text-anchor: middle;
+  text-length: 60;
+  x: 45%;
+  y: 125;
+  fill: grey;
+}
+
+#heartRate {
+  font-size: 30;
+  font-family: Colfax-Medium;
+  text-anchor: middle;
+  text-length: 40;
+  x: 65;
+  y: 290;
+  fill: white;
+}
+
+#batteryLabel {
+  font-size: 20;
+  font-family: Colfax-Medium;
+  text-length: 32;
+  text-anchor: start;
+  x: 2%;
+  y: 10%;
+  fill: white;
+}

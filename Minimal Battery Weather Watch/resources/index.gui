@@ -1,0 +1,19 @@
+<svg class="background">
+  <text id="mainDisplay"/>
+      <text id="date"/>
+  
+      <g id="clockface">
+      <text id="clockHours" />
+      <text id="clockMins" />
+      <text id="clockSec" />
+      </g>
+
+      <g>
+      <image id="Heart" href="icons/Heart.png" width="65" height="50" x="-10" y="255" load="sync"/>
+      <text id="heartRate">--</text>
+      </g>
+    
+      <g>
+        <text id="batteryLabel"/>
+      </g>  
+</svg>

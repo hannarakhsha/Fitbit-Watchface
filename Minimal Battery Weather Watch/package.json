@@ -1,0 +1,28 @@
+{
+  "fitbit": {
+    "appUUID": "aaed9f12-db47-4f89-bc13-276022f81136",
+    "appType": "clockface",
+    "appDisplayName": "Versa ClockFace",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_user_profile",
+      "access_activity",
+      "run_background",
+      "access_internet",
+      "access_location"
+    ],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Versa ClockFace"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~1.0.0"
+  }
+}
