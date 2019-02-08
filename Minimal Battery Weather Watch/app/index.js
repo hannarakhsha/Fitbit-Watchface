@@ -77,13 +77,13 @@ let batteryValue = battery.chargeLevel;
 
 //Center battery level inside Battery.png
 if (batteryValue === "100"){
-  batteryHandle.text = `${batteryValue}%`;
+  batteryLabel.text = `${batteryValue}%`;
 }
 else if(batteryValue <= "99" && batteryValue >= "10"){
-  batteryHandle.text = `${"  "}${batteryValue}%`;
+  batteryLabel.text = `${"  "}${batteryValue}%`;
 }
 else{
-  batteryHandle.text = `${"   "}${batteryValue}%`;
+  batteryLabel.text = `${"   "}${batteryValue}%`;
 }
 
 updateDate();
