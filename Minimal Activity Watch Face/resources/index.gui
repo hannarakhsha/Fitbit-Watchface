@@ -1,0 +1,36 @@
+<svg class="background">
+  <rect id="swap" width="100%" height="100%" pointer-events="visible" />
+  
+  <text id="clockHour" text-length="4"/>
+  <text id="clockMin" />
+  <text id="clockSec" />
+  
+  <text id="date"/>
+  
+  <image id="Heart" href="icons/Heart.png" width="65" height="50" x="-10" y="255" load="sync"/>
+  <text id="heartRate"></text>
+  
+  <image id="Battery" href="icons/Battery.png" width="150" height="125" x="-45" y="-45" load="sync"/>
+  <text id="batteryLevel"/>
+  
+  <image id="Steps" href="icons/Steps.png" width="65" height="50" x="150" y="250" load="sync"
+         display="none"/>
+  <text id="steps" pointer-events="visible"></text>
+   
+  <image id="Distance" href="icons/Distance.png" width="80" height="90" x="150" y="225" load="sync"
+         display="none"/>
+  <text id="distance" text-length="100" pointer-events="visible" ></text>
+  
+  <image id="Elevation" href="icons/Elevation.png" width="40" height="40" x="185" y="255" load="sync"
+         display="none"/>
+  <text id="elevation" text-length="100" pointer-events="visible" ></text>
+
+  <image id="Calories" href="icons/Calories.png" width="45" height="45" x="170" y="255" load="sync"
+         display="none"/>
+  <text id="calories" text-length="100" pointer-events="visible" ></text>
+  
+  <image id="ActiveMinutes" href="icons/ActiveMinutes.png" width="65" height="45" x="175" y="258" load="sync"
+         display="none"/>
+  <text id="activeMin" text-length="100" pointer-events="visible" ></text>
+
+</svg>
