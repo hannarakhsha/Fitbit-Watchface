@@ -11,6 +11,6 @@ Aug 30: Completed FitBit watchface with battery level, date, time, and heart rat
         -All activities are updated by clock granularity, which is set to every second.
         -Activity is still tracked and updated while screen is off.
         
-        ![First WatchFace Image](https://imgur.com/3Cu997q)
-        ![Watch Off Image](https://imgur.com/jF6VHSP)
-        ![Visual of Activity Cycles](https://imgur.com/QlwAH8X)
+        ![image](https://imgur.com/3Cu997q)
+        ![image](https://imgur.com/jF6VHSP)
+        ![image](https://imgur.com/QlwAH8X)
