@@ -1,2 +1,16 @@
 # Fitbit-Watchface
-Work in progress FitBit watch face to show battery level and weather in addition to date, time, steps, and heart rate.
+Feb 7: Work in progress FitBit watch face to show battery level and weather in addition to date, time, steps, and heart rate.
+
+################################################################################
+
+Aug 30: Completed FitBit watchface with battery level, date, time, and heart rate.
+
+        -Heart rate is shown as "--" when not on wrist.
+        -Tapping the screen to cycles through steps, distance, stairs, calories, and active minutes.
+        -Time is offered in both 24 and 12 hour formats.
+        -All activities are updated by clock granularity, which is set to every second.
+        -Activity is still tracked and updated while screen is off.
+        
+        ![First WatchFace Image](https://imgur.com/3Cu997q)
+        ![Watch Off Image](https://imgur.com/jF6VHSP)
+        ![Visual of Activity Cycles](https://imgur.com/QlwAH8X)
