@@ -103,11 +103,11 @@
 }
 
 #batteryLevel {
-  font-size: 15;
+  font-size: 25;
   font-family: Colfax-Medium;
   text-anchor: middle;
   text-length: 40;
-  x: 31;
-  y: 23;
+  x: 40;
+  y: 30;
   fill: white; 
 }

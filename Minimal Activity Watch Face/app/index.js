@@ -31,6 +31,8 @@ const activeMin = document.getElementById("activeMin");
 const batteryLevel = document.getElementById("batteryLevel");
 
 //Get a handle on the <image> elements from the index.gui file
+var Heart = document.getElementById("Heart");
+var Battery = document.getElementById("Battery");
 var Steps = document.getElementById("Steps");
 var Calories = document.getElementById("Calories");
 var Distance = document.getElementById("Distance");
@@ -95,6 +97,13 @@ if (BodyPresenceSensor) {
   body.start();
 }
 
+//Image display for heart rate
+Heart.style.display = "inline";
+
+
+//Initialize battery level and image to show
+batteryLevel.text = `${battery.chargeLevel}%`;
+Battery.style.display = "inline";
 
 //Change battery level as battery charge level changes
 battery.onchange = (charger, evt) => {

@@ -7,10 +7,12 @@
   
   <text id="date"/>
   
-  <image id="Heart" href="icons/Heart.png" width="65" height="50" x="-10" y="255" load="sync"/>
+  <image id="Heart" href="icons/Heart.png" width="65" height="50" x="-10" y="255" load="sync"
+         display="inline"/>
   <text id="heartRate"></text>
   
-  <image id="Battery" href="icons/Battery.png" width="150" height="125" x="-45" y="-45" load="sync"/>
+  <image id="Battery" href="icons/Battery.png" width="230" height="175" x="-76" y="-65" load="sync"
+         display="inline"/>
   <text id="batteryLevel"/>
   
   <image id="Steps" href="icons/Steps.png" width="65" height="50" x="150" y="250" load="sync"
