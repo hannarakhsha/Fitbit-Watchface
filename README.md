@@ -16,4 +16,4 @@ Aug 31: Updated image sizes inside resource folder to address flickering/not dis
 
 ![](images/Example.png)
 ![](images/WatchOffWrist.png)
-![](images/ActivitySwitch.mov)
+![](images/FeaturesPreview.mov)
