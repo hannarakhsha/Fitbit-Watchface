@@ -61,8 +61,8 @@ clock.ontick = (evt) => {
   clockMin.text = `${mins}`;
   clockSec.text = `${sec}`;
   
-  //Function call to update activities with clock granularity
-  updateActivities();
+  //Function call to keep steps updated at all times
+  updateSteps();
 }
 
 //Update date daily
@@ -111,23 +111,53 @@ battery.onchange = (charger, evt) => {
 }
 
 
-//If user grants permission activity information will be retrieved
-function updateActivities(){
+//If user grants permission each below activity information will be retrieved
+function updateSteps(){
   if (appbit.permissions.granted("access_activity")) {
     steps.text = today.adjusted.steps;
-    distance.text = today.adjusted.distance;
-    elevation.text = today.adjusted.elevationGain;
-    calories.text = today.adjusted.calories;
-    activeMin.text = today.adjusted.activeMinutes;
   }
   else {
   steps.text = "No data";
+  }
+}
+
+function updateDistance(){
+  if (appbit.permissions.granted("access_activity")) {
+    distance.text = today.adjusted.distance;
+  }
+  else {
   distance.text = "No data";
+  }
+}
+
+function updateElevation(){
+  if (appbit.permissions.granted("access_activity")) {
+    elevation.text = today.adjusted.elevationGain;
+  }
+  else {
   elevation.text = "No data";
+  }
+}
+
+function updateCalories(){
+  if (appbit.permissions.granted("access_activity")) {
+    calories.text = today.adjusted.calories;
+  }
+  else {
   calories.text = "No data";
+  }
+}
+
+function updateActiveMinutes(){
+  if (appbit.permissions.granted("access_activity")) {
+    activeMin.text = today.adjusted.activeMinutes;
+  }
+  else {
   activeMin.text = "No data";
   }
 }
+
+
 
 //Initializes visibility of images and text
 steps.style.visibility = "visible";
@@ -147,24 +177,28 @@ swap.onclick = function(e) {
     distance.style.visibility = "visible";
     Steps.style.display = "none";
     Distance.style.display = "inline";
+    updateDistance();
   }
   else if(distance.style.visibility === "visible"){
     distance.style.visibility = "hidden";
     elevation.style.visibility = "visible";
     Distance.style.display = "none";
     Elevation.style.display = "inline";
+    updateElevation();
   }
   else if(elevation.style.visibility === "visible"){
     elevation.style.visibility = "hidden";
     calories.style.visibility = "visible";
     Elevation.style.display = "none";
     Calories.style.display = "inline";
+    updateCalories();
   }
   else if(calories.style.visibility === "visible"){
     calories.style.visibility = "hidden";
     activeMin.style.visibility = "visible";
     Calories.style.display = "none";
     ActiveMinutes.style.display = "inline";
+    updateActiveMinutes();
   }
   else{
     steps.style.visibility = "visible";
