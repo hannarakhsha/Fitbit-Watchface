@@ -17,6 +17,11 @@ Aug 31: Updated image sizes inside resource folder to address flickering/not dis
 
 ################################################################################
 
+Sep 03: Updated activity function calls to update on swap to respective activity instead of every second.
+        Will help reduce battery consumption of watch.
+        
+################################################################################
+
 ![](images/Example.png)
 ![](images/WatchOffWrist.png)
 ![](images/FeaturesPreview.mov)
