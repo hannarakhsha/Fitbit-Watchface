@@ -30,6 +30,15 @@ Sep 05: Update
              will show previous activity while clicking right side of screen will show next activity.
         -Updated images to show more examples of watch as well as previous/next activity feature.
 
+################################################################################
+
+November 10, 2020 Update:
+        -Updated to lastest Versa SDK (4.2).
+        -Changed Active Minutes to show Active Zone Minutes total.
+        -Uploaded to Fitbit Gallery App Manager for download to in phone app clockface page instead of
+                as seperate developer app.
+
+################################################################################
 ![](images/Example12Hour.png)
 ![](images/Example24Hour.png)
 ![](images/WatchOffWrist.png)
