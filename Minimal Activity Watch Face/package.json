@@ -1,8 +1,11 @@
 {
+  "devDependencies": {
+    "@fitbit/sdk": "~4.2.0"
+  },
   "fitbit": {
     "appUUID": "74c423d5-24ef-457a-bf18-5c727408baa9",
     "appType": "clockface",
-    "appDisplayName": "Personal WatchFace",
+    "appDisplayName": "Minimal All-In-One Watchface",
     "iconFile": "resources/icon.png",
     "wipeColor": "",
     "requestedPermissions": [
@@ -16,13 +19,10 @@
       "meson"
     ],
     "i18n": {
-      "en": {
-        "name": "Personal WatchFace"
+      "en-US": {
+        "name": "Minimal All-In-One Watchface"
       }
     },
     "defaultLanguage": "en-US"
-  },
-  "devDependencies": {
-    "@fitbit/sdk": "~3.1.0"
   }
 }

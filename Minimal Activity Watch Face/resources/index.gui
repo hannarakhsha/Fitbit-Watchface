@@ -8,32 +8,25 @@
   
   <text id="date"/>
   
-  <image id="Heart" href="icons/Heart.png" width="65" height="50" x="-10" y="255" load="sync"
-         display="inline"/>
+  <image id="Heart" href="icons/Heart.png" width="65" height="50" x="-10" y="255" load="sync" display="inline"/>
   <text id="heartRate"></text>
   
-  <image id="Battery" href="icons/Battery.png" width="210" height="165" x="-65" y="-60" load="sync"
-         display="inline"/>
+  <image id="Battery" href="icons/Battery.png" width="210" height="165" x="-65" y="-60" load="sync" display="inline"/>
   <text id="batteryLevel"/>
   
-  <image id="Steps" href="icons/Steps.png" width="65" height="50" x="150" y="250" load="sync"
-         display="none"/>
+  <image id="Steps" href="icons/Steps.png" width="65" height="50" x="150" y="250" load="sync" display="none"/>
   <text id="steps" pointer-events="visible"></text>
    
-  <image id="Distance" href="icons/Distance.png" width="80" height="90" x="150" y="225" load="sync"
-         display="none"/>
+  <image id="Distance" href="icons/Distance.png" width="80" height="90" x="150" y="225" load="sync" display="none"/>
   <text id="distance" text-length="100" pointer-events="visible" ></text>
   
-  <image id="Elevation" href="icons/Elevation.png" width="40" height="40" x="185" y="255" load="sync"
-         display="none"/>
+  <image id="Elevation" href="icons/Elevation.png" width="40" height="40" x="185" y="255" load="sync" display="none"/>
   <text id="elevation" text-length="100" pointer-events="visible" ></text>
 
-  <image id="Calories" href="icons/Calories.png" width="45" height="45" x="170" y="255" load="sync"
-         display="none"/>
+  <image id="Calories" href="icons/Calories.png" width="45" height="45" x="170" y="255" load="sync" display="none"/>
   <text id="calories" text-length="100" pointer-events="visible" ></text>
   
-  <image id="ActiveMinutes" href="icons/ActiveMinutes.png" width="65" height="45" x="175" y="258" load="sync"
-         display="none"/>
+  <image id="ActiveMinutes" href="icons/ActiveMinutes.png" width="65" height="45" x="175" y="258" load="sync" display="none"/>
   <text id="activeMin" text-length="100" pointer-events="visible" ></text>
 
 </svg>

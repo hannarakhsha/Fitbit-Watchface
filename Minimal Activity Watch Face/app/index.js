@@ -114,7 +114,7 @@ function updateActivities(){
     distance.text = today.adjusted.distance;
     elevation.text = today.adjusted.elevationGain;
     calories.text = today.adjusted.calories;
-    activeMin.text = today.adjusted.activeMinutes;
+    activeMin.text = today.adjusted.activeZoneMinutes.total;
   }
   else{
     steps.text = "No data";
