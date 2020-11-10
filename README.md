@@ -33,6 +33,7 @@ Sep 05: Update
 ################################################################################
 
 November 10, 2020 Update:
+
         -Updated to lastest Versa SDK (4.2).
         -Changed Active Minutes to show Active Zone Minutes total.
         -Uploaded to Fitbit Gallery App Manager for download to in phone app clockface page instead of
