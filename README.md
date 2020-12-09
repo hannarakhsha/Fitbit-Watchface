@@ -42,6 +42,7 @@ November 10, 2020 Update (4.2 Version):
 ################################################################################
 
 December 08, 2020 Update (Fitbit Gallery Version):
+
         -Updated active minutes to active zone minutes. Changed icon and text to accurately represent.
         -Changed folder name to match watchface name.
 
