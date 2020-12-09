@@ -26,7 +26,7 @@
   <image id="Calories" href="icons/Calories.png" width="45" height="45" x="170" y="255" load="sync" display="none"/>
   <text id="calories" text-length="100" pointer-events="visible" ></text>
   
-  <image id="ActiveMinutes" href="icons/ActiveMinutes.png" width="65" height="45" x="175" y="258" load="sync" display="none"/>
-  <text id="activeMin" text-length="100" pointer-events="visible" ></text>
+  <image id="ActiveZoneMinutes" href="icons/TotalActiveZoneMinutes.png" width="65" height="45" x="175" y="258" load="sync" display="none"/>
+  <text id="activeZoneMin" text-length="100" pointer-events="visible" ></text>
 
 </svg>

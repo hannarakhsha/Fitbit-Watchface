@@ -29,7 +29,7 @@ const steps = document.getElementById("steps");
 const distance = document.getElementById("distance");
 const elevation = document.getElementById("elevation");
 const calories = document.getElementById("calories");
-const activeMin = document.getElementById("activeMin");
+const activeZoneMin = document.getElementById("activeZoneMin");
 const batteryLevel = document.getElementById("batteryLevel");
 let swapRight = document.getElementById("swapRight");
 let swapLeft = document.getElementById("swapLeft");
@@ -41,7 +41,7 @@ var Steps = document.getElementById("Steps");
 var Calories = document.getElementById("Calories");
 var Distance = document.getElementById("Distance");
 var Elevation = document.getElementById("Elevation");
-var ActiveMinutes = document.getElementById("ActiveMinutes");
+var ActiveZoneMinutes = document.getElementById("ActiveZoneMinutes");
 
 
 // Update the clock every second
@@ -114,14 +114,14 @@ function updateActivities(){
     distance.text = today.adjusted.distance;
     elevation.text = today.adjusted.elevationGain;
     calories.text = today.adjusted.calories;
-    activeMin.text = today.adjusted.activeZoneMinutes.total;
+    activeZoneMin.text = today.adjusted.activeZoneMinutes.total;
   }
   else{
     steps.text = "No data";
     distance.text = "No data";
     elevation.text = "No data";
     calories.text = "No data";
-    activeMin.text = "No data";
+    activeZoneMin.text = "No data";
   }
 }
 
@@ -131,7 +131,7 @@ Steps.style.display = "inline";
 distance.style.visibility = "hidden";
 elevation.style.visibility = "hidden";
 calories.style.visibility = "hidden";
-activeMin.style.visibility = "hidden";
+activeZoneMin.style.visibility = "hidden";
 
 //Visibility of text and images for activities, dependent on screen click
 //Click through back and forth between activities
@@ -157,12 +157,12 @@ swapRight.onclick = function(e){
   else if(calories.style.visibility === "visible"){
     calories.style.visibility = "hidden";
     Calories.style.display = "none";
-    activeMin.style.visibility = "visible";
-    ActiveMinutes.style.display = "inline";
+    activeZoneMin.style.visibility = "visible";
+    ActiveZoneMinutes.style.display = "inline";
   }
   else{
-    activeMin.style.visibility = "hidden";
-    ActiveMinutes.style.display = "none";
+    activeZoneMin.style.visibility = "hidden";
+    ActiveZoneMinutes.style.display = "none";
     steps.style.visibility = "visible";
     Steps.style.display = "inline";
   }
@@ -172,12 +172,12 @@ swapLeft.onclick = function(e){
   if(steps.style.visibility === "visible"){
     steps.style.visibility = "hidden";
     Steps.style.display = "none";
-    activeMin.style.visibility = "visible";
-    ActiveMinutes.style.display = "inline";
+    activeZoneMin.style.visibility = "visible";
+    ActiveZoneMinutes.style.display = "inline";
   }
-  else if(activeMin.style.visibility === "visible"){
-    activeMin.style.visibility = "hidden";
-    ActiveMinutes.style.display = "none";
+  else if(activeZoneMin.style.visibility === "visible"){
+    activeZoneMin.style.visibility = "hidden";
+    ActiveZoneMinutes.style.display = "none";
     calories.style.visibility = "visible";
     Calories.style.display = "inline";
   }
